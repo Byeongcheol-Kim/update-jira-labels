@@ -1,4 +1,4 @@
-name: "Python Container Action Template"
+name: "update-jira-labels-and-components"
 description: "Get started with Python Container actions"
 author: "=Byeongcheol Kim"
 inputs:
