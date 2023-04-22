@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ygy_update_jira_issues"
+name = "update_jira_issues"
 version = "0.1.0"
 description = ""
 authors = ["kimbyeongcheol <byeongcheol.kim@wesang.com>"]
