@@ -1,6 +1,6 @@
 name: "update-jira-labels-and-components"
 description: "Get started with Python Container actions"
-author: "=Byeongcheol Kim"
+author: "Byeongcheol Kim"
 inputs:
   myInput:
     description: "Input to use"
