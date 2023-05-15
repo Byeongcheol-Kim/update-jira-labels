@@ -1,0 +1,32 @@
+name: "update-jira-labels-and-components"
+description: "Get started with Python Container actions"
+author: "Byeongcheol Kim"
+inputs:
+  myInput:
+    description: "Input to use"
+    default: "world"
+  branchName:
+    description: "Branch name to use"
+    required: true
+  labelToAdd:
+    description: "Label to add"
+  labelToRemove:
+    description: "Label to remove"
+  componentToAdd:
+    description: "Component to add"
+  componentToRemove:
+    description: "Component to remove"
+outputs:
+  myOutput:
+    description: "Output from the action"
+  targetBranch:
+    description: "Target branch"
+  currentLabel:
+    description: "Current label"
+  currentComponent:
+    description: "Current component"
+  currentLinkedIssue:
+    description: "Current linked issue"
+runs:
+  using: "docker"
+  image: "Dockerfile"
